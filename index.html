@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Kdam+Thmor+Pro&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
     <title>Car Shop</title>
 </head>
 
@@ -16,10 +21,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -35,11 +40,45 @@
                     ad quaerat. Sunt quam voluptates, esse fuga ipsam atque quae, totam
                     illo quidem voluptatem quo quibusdam delectus, facere hic tempore iure.
                 </p>
-                <ul class="categorys">
-                    <li><img src="./img/popular.jpg" alt="Popular"></li>
-                    <li><img src="./img/suv.jpg" alt="SUV"></li>
-                    <li><img src="./img/frota.jpg" alt="Frota"></li>
-                </ul>
+
+
+                <div class="categorys">
+                    <div class="category-itens">
+                        <img src="./img/popular.jpg" alt="Popular">
+                        <p>
+                            <strong>Ficha técnica:</strong>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus, neque quam
+                            corrupti, aliquid, consequatur officiis quisquam ipsa libero temporibus recusandae eveniet
+                            magni
+                            quo sunt sint quidem error quos facere.
+                        </p>
+                        <a class="ler-mais" href="#" title="Mais detalhes">Ler mais</a>
+                    </div>
+
+                    <div class="category-itens">
+                        <img src="./img/suv.jpg" alt="SUV">
+                        <p>
+                            <strong>Ficha técnica:</strong>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et libero, dolore fugiat
+                            distinctio
+                            porro quaerat facilis sunt! Laudantium rem dignissimos, inventore totam, est ipsa ducimus
+                            consequatur iusto quas velit molestias.
+                        </p>
+                        <a class="ler-mais" href="#" title="Mais detalhes">Ler mais</a>
+                    </div>
+
+                    <div class="category-itens">
+                        <img src="./img/frota.jpg" alt="Frota">
+                        <p>
+                            <strong>Ficha técnica:</strong>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus vitae hic provident
+                            debitis
+                            sequi, laboriosam obcaecati aperiam facere necessitatibus quos dolorem, ducimus cumque
+                            perspiciatis amet officiis quisquam temporibus dolorum.
+                        </p>
+                        <a class="ler-mais" href="#" title="Ficha técnica">Ficha técnica</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -54,7 +93,6 @@
                         <input type="email" placeholder="Email" required />
                         <input type="tel" placeholder="Telefone (opcional)" />
                         <textarea placeholder="Mensagem" rquired></textarea>
-                        <input type="text" placeholder="Nome" required />
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
