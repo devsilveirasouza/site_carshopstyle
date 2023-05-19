@@ -21,7 +21,6 @@ section h2,
 section h3,
 form button {
     font-family: 'Kdam Thmor Pro', sans-serif;
-    font-weight: normal;
 }
 
 header h1 {
@@ -52,7 +51,7 @@ section .container {
     justify-content: space-between;
 }
 
-.container .categorys {
+.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,14 +65,28 @@ section .container {
     width: 100%;
     height: 400px;
     display: flex;
-    margin-right: 8px;
+    margin: 8px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .category-itens {
     width: 30%;
     height: 85%;
+}
+
+.categorys .category-itens a {
+    background-color: #4b0082;
+    color: #e6d5f1;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.categorys .category-itens a:hover {
+    background-color: #8b18dd;
 }
 
 button .ler-mais {
@@ -122,6 +135,10 @@ section p {
 
 #home {
     background-color: #e6d5f1;
+}
+
+#contact {
+    background-color: rgba(189, 177, 228, 0.7);
 }
 
 #contact .container {
